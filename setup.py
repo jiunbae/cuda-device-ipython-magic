@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name              = 'cuda-device-ipython-magic',
-    version           = '0.1.0',
+    version           = '0.1.1',
     description       = 'set CUDA_VISIBLE_DEVICES in ipython',
     long_description  = open('README.md').read(),
     author            = 'Maydev',
@@ -13,6 +13,9 @@ setup(
     license           = 'MIT',
     install_requires  = (
         'ipython',
+    ),
+    py_modules        = (
+        'cuda_device',
     ),
     classifiers       = [
         'Development Status :: 3 - Alpha',
