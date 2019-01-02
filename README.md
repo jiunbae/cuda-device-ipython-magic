@@ -12,5 +12,5 @@ In []: %CUDA_VISIBLE_DEVICES 0,1
 ## Installation
 
 ```
-pip install cuda-devices-ipython-magic
+pip install cuda-device-ipython-magic
 ```
